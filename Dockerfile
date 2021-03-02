@@ -10,5 +10,3 @@ COPY requirements.txt /app/src/
 RUN python -m pip install -r requirements.txt
 
 RUN rm /app/src/requirements.txt
-
-RUN python -m spacy download en-core-web-sm
